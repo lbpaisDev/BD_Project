@@ -1,0 +1,49 @@
+body{
+    background-color: cadetblue;
+}
+
+.inp{
+    width: 90px;
+    height: 25px;
+}
+
+
+td,th
+{
+    padding:4px 20px 4px 20px;
+    background-color: cornflowerblue;
+    color: #2c343b;
+
+}
+
+tr th{
+    padding:0 15px 0 15px;
+}
+
+table {
+    border: solid #5e5e5e !important;
+    border-width: 1px 0 0 1px !important;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: solid lightsteelblue !important;
+    border-width: 3px 3px 3px 3px !important;
+    border-radius: 8px; !important;
+}
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    height: 60px; !important;
+
+}
+
+td{
+    height: 30px;!important;
+}
+
+table.mytable tr:hover td {
+    background-color: lightgrey;
+}

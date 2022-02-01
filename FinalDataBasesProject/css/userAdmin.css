@@ -1,0 +1,207 @@
+.notification {
+  background-color: #555;
+  color: white;
+  width: 125px;
+  text-decoration: none;
+  padding: 15px 26px;
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: green;
+    color: white;
+}
+
+.notification:focus{
+  color: white;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+}
+
+#mainNav em {
+	font-weight: 600;
+	color: black;
+}
+
+#mainNav {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+	letter-spacing: 0.5px;
+}
+
+#navbox{
+  margin-top: 20px;
+}
+
+body{
+  background: green;
+}
+
+.container{
+    background: green;
+    width: 100% ;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.section{
+    margin-top: 80px;
+    padding: 0px;
+    height: 686px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#logout{
+	font-family: 'Open Sans', arial, sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+  text-shadow: none;
+  margin-top: 19px;
+	color: #121212!important;
+}
+
+#msgTable{
+  align-self: left;
+  width: 65%;
+
+}
+
+h2{
+  font-size: 50px;
+  color: green;
+  margin: 20px;
+  align-self: left;
+}
+
+td{
+  text-align: left;
+  padding: 0 15px 0 15px;
+}
+
+th{
+  font-size: 25px;
+  color: green;
+  text-align: left;
+  padding: 0 15px 0 15px;
+
+}
+
+#nresponse{
+  margin: 20px;
+  align-self: left;
+  font-size: 50px;
+  color: green;
+}
+
+.tablediv{
+  margin-left: 20px;
+  overflow: auto;
+}
+
+/* Style the search field */
+form.searchBox input[type=text] {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 25%;
+  background: #f1f1f1;
+  height: 47px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* Style the submit button */
+form.searchBox button {
+  border-radius: 5px;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  height: 47px;
+  display: block;
+}
+
+form.searchBox button:hover {
+  background: green;
+}
+
+/* Clear floats */
+form.searchBox::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.supracontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.anotherinnercontainer{
+  margin-top: 30px;
+  width: 60%;
+}
+
+#options{
+  align-self: center;
+   display: flex;
+  flex-direction: column;
+}
+
+/*Major Buttons Settings*/
+.buttonnav {
+	margin: 20px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    color: #fff;
+    text-align: center;
+    /* box-shadow: 0px 3px 1px #2075aa; */
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.buttonnav:hover {
+    background: lightgreen;
+  /* box-shadow: 0 3px 1px #237bb2; */
+}
+
+.buttonnav:active {
+    background: lightgreen;
+  /* box-shadow: 0 3px 1px #0f608c; */
+}

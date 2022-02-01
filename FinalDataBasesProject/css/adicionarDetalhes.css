@@ -1,0 +1,169 @@
+#lala form{
+    position: absolute;
+    left: 8%;
+    top:20%
+}
+
+#boxy{
+    width: 150px;
+    height: 40px;
+}
+
+.errosPos{
+    position: absolute;
+    top: 67%;
+    right: 72%;
+}
+
+.errosPos2{
+    position: absolute;
+    top: 70%;
+    right: 65%;
+}
+.errosPos4{
+    position: absolute;
+    top: 58%;
+    right: 22%;
+}
+
+
+.errosPos3{
+    position: absolute;
+    top: 73%;
+    right: 45%;
+}
+
+.spot{
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+
+.spot2{
+    position: absolute;
+    top: 50%;
+    right: 65%;
+}
+
+
+.spot3{
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.hora{
+    width: 50px;
+}
+
+.boldi{
+    margin-right: 15px;
+}
+
+.titles{
+    color: orange;
+}
+
+.checkcheck
+{
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    padding: 50px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+    /* Checkbox text */
+    font-size: 110%;
+    display: inline;
+}
+
+select{
+    width: 180px;
+    height: 30px;
+    color: #0f0f0f;
+}
+
+.botones{
+    position: absolute;
+    left: 5%;
+    top: 103%
+}
+
+.leButton{
+    width: 150px;
+    height: 40px;
+}
+
+.texto-centro{
+    text-align: center;
+}
+
+.label{
+    display: block;
+    text-align: center;
+    font-size: .85em;
+    width: 300px;
+}
+
+.start_label{
+    padding-left: 5px;
+}
+
+.label_fim1{
+    padding-left: 50px;
+}
+
+.label_fim2{
+    padding-left: 120px;
+}
+
+#second_game{
+    padding-left: 140px;
+}
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 34px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 2px;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    opacity: 1; /* Firefox */
+}
+.dual-pad{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.goback{
+    position: absolute;
+    bottom: 10%;
+    right: 45%;
+}

@@ -1,0 +1,51 @@
+#Table {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table thead tr{
+    display:block;
+}
+
+
+td,th
+{
+    padding:5px 25px 5px 25px;
+    background-color: white;
+    color: #2c343b;
+
+}
+
+tr th{
+    padding:0 15px 0 15px;
+    font-weight: bolder;
+}
+
+table {
+    border: solid #5e5e5e !important;
+    border-width: 1px 0 0 1px !important;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: solid black !important;
+    border-width: 3px 3px 3px 3px !important;
+    border-radius: 8px; !important;
+}
+
+
+td{
+    height: 35px;!important;
+}
+
+table.mytable tr:hover td {
+    background-color: lightcyan;
+}

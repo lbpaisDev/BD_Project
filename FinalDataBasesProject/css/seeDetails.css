@@ -1,0 +1,120 @@
+#Torneios{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+#Torneios2{
+    position: absolute;
+    top: 35%;
+    left: 95%;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table thead tr{
+    display:block;
+}
+
+#Torneios2{
+    position: absolute;
+    bottom: 35%;
+    left: 65%;
+}
+
+.middle-btn{
+    width: 33.2%;
+}
+
+/*.mytable tr:nth-child(even) td{
+    background-color: lightcyan;!important;
+}*/
+
+
+td,th
+{
+    padding:5px 25px 5px 25px;
+    background-color: lightskyblue;
+    color: #2c343b;
+
+}
+
+tr th{
+    padding:0 15px 0 15px;
+}
+
+table {
+    border: solid #5e5e5e !important;
+    border-width: 1px 0 0 1px !important;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: solid black !important;
+    border-width: 3px 3px 3px 3px !important;
+    border-radius: 8px; !important;
+}
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    height: 60px; !important;
+
+}
+
+td{
+    height: 35px;!important;
+}
+
+table.mytable tr:hover td {
+    background-color: lightcyan;
+}
+
+.bbt{
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 34px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    border-radius: 12px;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+.menu-centro{
+    position: absolute;
+    right: 40%;
+    top: 25%;
+    text-align: center;
+}
+
+.menu-esquerda{
+    position: absolute;
+    border-color: darkgreen;
+    left: 5%;
+    top: 15%;
+}
